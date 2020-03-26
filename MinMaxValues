@@ -1,0 +1,24 @@
+package i_AllAboutARRAYS;
+public class MinMaxValues {
+	public static void main(String[] args) {
+//		Finding the Maximum Values
+		int minMax[]= {17, 9, 01, 12, 54, 98, 99};
+		
+//		int max=minMax[0];
+//		for(int i=1; i<minMax.length;i++) {
+//			if(minMax[i]>max) {
+//				max=minMax[i];
+//			}
+//		}
+//		System.out.println("Maximum Element is; "+max);
+		
+//		Finding the Minimum Values
+		
+		int min=minMax[0];
+		for(int j=1; j<minMax.length;j++) {
+			if(minMax[j]<min) {
+				min=minMax[j];
+			}
+		}System.out.println("Minimum Element is: "+min);
+	}
+}
