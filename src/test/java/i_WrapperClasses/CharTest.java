@@ -13,7 +13,7 @@ public class CharTest {
 		{
 			System.out.println("Enter a character: ");
 			ch = (char) br.read();
-			// test and dispaly the type of character
+			// test and display the type of character
 			System.out.println();
 			if (Character.isDigit(ch)) {
 				System.out.println("a digit");
